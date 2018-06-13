@@ -1,0 +1,209 @@
+body {
+    background-color: #DCDDE1;
+    
+}
+
+p {
+	font-family: "Arial";
+}
+
+h1 h2 h3 h4 {
+	font-family: "Franklin Gothic";
+}
+
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.headermenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ECF0F1;
+}
+
+.navbar {
+    background-color: #ECF0F1 !important;
+    width: 100%;
+}
+
+.navbar a {
+    color: black !important;
+}
+
+.navbar-toggler {
+    background-color: #005288;
+}
+
+.headermenu img {
+    width: 200px;
+    height: auto;
+}
+
+.textOne {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 40%;
+}
+
+.textwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+#map {
+        height: 400px;
+        width: 50%;
+       }
+
+.contactForms {
+    width: 50%;
+}
+
+.form-group {
+    width: 80%;
+}
+
+.submitButton {
+    background-color: #005288;
+    color: white;
+}
+
+.subjectInput {
+    height: 100px;
+    text-align: center;
+}
+
+/* Footer -------------------------------------- */
+
+.footer {
+    background-color: #ECF0F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img {
+    width: 200px;
+    height: auto;
+}
+
+.footer h4 {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.sLogo {
+    padding-top: 10px;
+    transform: translate(15px, 0px);
+}
+
+.sOmEImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sOmEImg img {
+    width: 40px;
+    height: auto;
+    margin: 20px;
+}
+
+/* ------------- break points -------------- */
+
+@media all and (max-width: 1199px) {
+	.textOne {
+		/*
+		background-color: aqua;
+		*/
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 50%;
+	}
+	
+	#map {
+        height: 300px;
+        width: 60%;
+       }
+	
+	.contactForms {
+		width: 60%;
+	}
+	
+} 
+
+@media all and (max-width: 991px) {
+	.textOne {
+		/*
+		background-color: blue;
+		*/
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 60%;
+	}
+	
+	#map {
+        height: 300px;
+        width: 60%;
+       }
+	
+	.contactForms {
+		width: 70%;
+	}
+} 
+
+@media all and (max-width: 768px) {
+	.textOne {
+		/*
+		background-color: yellow;
+		*/
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 70%;
+	}
+	
+	#map {
+        height: 250px;
+        width: 100%;
+       }
+	
+	.contactForms {
+		width: 90%;
+	}
+} 
+
+@media all and (max-width: 575px) {
+	.textOne {
+		/*
+		background-color: green;
+		*/
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 80%;
+	}
+	
+	#map {
+        height: 200px;
+        width: 100%;
+       }
+	
+	.contactForms {
+		width: 100%;
+	}
+}
+
+

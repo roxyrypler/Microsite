@@ -1,0 +1,853 @@
+body {
+    background-color: #DCDDE1;
+    overflow-x: hidden;
+}
+
+p {
+	font-family: "Arial";
+}
+
+h1 h2 h3 h4 {
+	font-family: "Franklin Gothic";
+}
+
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.headermenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ECF0F1;
+}
+
+.navbar {
+    background-color: #ECF0F1 !important;
+    width: 100%;
+}
+
+.navbar a {
+    color: black !important;
+}
+
+.navbar-toggler {
+    background-color: #005288;
+}
+
+.headermenu img {
+    width: 200px;
+    height: auto;
+}
+
+.elonImg img {
+    width: 50%;
+    height: auto;
+}
+
+.textOne {
+	display: inline-block;
+    width: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.textOne h2 {
+	font-family: "Franklin Gothic";
+}
+
+.textOne p {
+	font-family: "Arial";
+}
+
+.panel {
+    height: 100vH;
+    width: 100%;
+}
+
+.sectionOne {
+    background-color: #DCDDE1;
+    width: 100%;
+    height: 100vH;
+}
+
+.sectionTwo {
+    background-color: #74B9FF;
+    background-image: url("../img/DottWithLine.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 100%;
+    height: 100vH;
+}
+
+.sectionThree {
+    background-color: #A29BFE;
+    background-image: url("../img/DottWithLine.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 100%;
+    height: 100vH;
+}
+
+.sectionFour {
+    background-color: #55EFC4;
+    background-image: url("../img/DottWithLine.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 100%;
+    height: 100vH;
+}
+
+.sectionFive {
+    background-color: #FF7675;
+    background-image: url("../img/DottWithLine.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 100%;
+    height: 100vH;
+}
+
+.sectionSix {
+    background-color: #DCDDE1;
+    width: 100%;
+    height: 100vH;
+}
+
+/* -----------------  grids and achievments  -------------------- */
+/* -----------------  slide One  -------------------- */
+
+.mainGrid {
+    width: 90%;
+}
+
+.col {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.dates {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 35px;
+}
+
+.dates h1 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+}
+
+.dates h2 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+}
+
+.paragraphsOne {
+    text-align: right;
+	transform: translate(0px, 80px);
+	font-size: 30px;
+}
+
+.imgOne {
+    background-image: url("../img/FixedBadges/5.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 250px;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all 1s ease-out;
+}
+.imgOne.fade-in {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.imgTwo {
+    background-image: url("../img/FixedBadges/6.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 250px;
+	transform: translate(0px, -150px);
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all 1.5s ease-out;
+}
+.imgTwo.fade-in {
+	opacity: 1;
+	transform: translateY(-150px);
+}
+
+/* -----------------  slide Two  -------------------- */
+
+.paragraphsTwo {
+    text-align: left;
+	transform: translate(0px, 80px);
+	font-size: 30px;
+}
+
+.imgThree {
+    background-image: url("../img/FixedBadges/1.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 250px;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all 1s ease-out;
+}
+.imgThree.fade-in {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+
+/* -----------------  slide Three  -------------------- */
+
+.paragraphsThree {
+    text-align: right;
+	transform: translate(0px, 80px);
+	font-size: 30px;
+}
+
+.imgFour {
+    background-image: url("../img/FixedBadges/2.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 250px;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all 1s ease-out;
+}
+.imgFour.fade-in {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+
+
+/* -----------------  slide Four  -------------------- */
+
+.paragraphsFour {
+    text-align: left;
+	transform: translate(0px, 80px);
+	font-size: 30px;
+}
+
+.imgFive {
+    background-image: url("../img/FixedBadges/4.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 250px;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all 1s ease-out;
+}
+.imgFive.fade-in {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.imgSix {
+    background-image: url("../img/FixedBadges/3.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 250px;
+	opacity: 0;
+	transform: translate(0px, -80px);
+	transform: translateY(50px);
+	transition: all 1s ease-out;
+}
+.imgSix.fade-in {
+	opacity: 1;
+	transform: translateY(-80px);
+}
+
+
+.refferances {
+	
+}
+
+
+
+
+
+
+/* Footer -------------------------------------- */
+
+.box {
+	
+	height: 50px;
+	margin-top: 10px;
+}
+
+.lastSlideContainer {
+	height: 70%;
+	width: 80%;
+	display: inline-block;
+	
+}
+
+.headerTextONe {
+	text-align: center;
+}
+
+.footer {
+    background-color: #ECF0F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	height: 30%;
+}
+
+.footer img {
+    width: 200px;
+    height: auto;
+}
+
+.footer h4 {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.sLogo {
+    padding-top: 10px;
+    transform: translate(15px, 0px);
+}
+
+.sOmEImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sOmEImg img {
+    width: 40px;
+    height: auto;
+    margin: 20px;
+}
+
+/* -------------- When small screen and landscape -------- */
+
+.stop-Scrolling {
+	height: 100%;
+  	overflow: hidden;
+}
+
+.overlay {
+	background-image: url("../img/sValK.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,1);
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+/* ------------- break points -------------- */
+
+@media all and (max-width: 1199px) {
+	/*
+	*/
+	
+	.textOne {
+		/*
+		background-color: aqua;
+		*/
+		width: 80%;
+		margin-top: 40px;
+		font-size: 20px;
+		
+	}
+	
+	.elonImg img {
+		width: 50%;
+		height: auto;
+	}
+	
+	/* -----------------  grids and achievments  -------------------- */
+	/* -----------------  slide One  -------------------- */
+	
+	.dates {
+		transform: translate(0px, 0px);
+		
+	}
+	
+	.paragraphsOne {
+		transform: translate(0px, 80px);
+		font-size: 30px;
+	}
+
+	.imgOne {
+		background-image: url("../img/FixedBadges/5.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -100px);
+	}
+
+	.imgTwo {
+		background-image: url("../img/FixedBadges/6.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -200px);
+	}
+
+	/* -----------------  slide Two  -------------------- */
+
+	.paragraphsTwo {
+		text-align: left;
+		transform: translate(0px, 80px);
+		font-size: 30px;
+	}
+
+	.imgThree {
+		background-image: url("../img/FixedBadges/1.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+	}
+
+
+	/* -----------------  slide Three  -------------------- */
+
+	.paragraphsThree {
+		text-align: right;
+		transform: translate(0px, 80px);
+		font-size: 30px;
+	}
+
+	.imgFour {
+		background-image: url("../img/FixedBadges/2.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+	}
+
+
+	/* -----------------  slide Four  -------------------- */
+
+	.paragraphsFour {
+		text-align: left;
+			transform: translate(0px, 80px);
+		font-size: 30px;
+	}
+
+	.imgFive {
+		background-image: url("../img/FixedBadges/4.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -100px);
+	}
+
+	.imgSix {
+		background-image: url("../img/FixedBadges/3.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -150px);
+	}
+} 
+
+@media all and (max-width: 991px) {
+	/*
+	*/
+	
+	.textOne {
+		/*
+		background-color: blue;
+		*/
+		width: 60%;
+		margin-top: 40px;
+	}
+	
+	.elonImg img {
+		width: 50%;
+		height: auto;
+	}
+	
+	/* -----------------  grids and achievments  -------------------- */
+	/* -----------------  slide One  -------------------- */
+	
+	.dates {
+		transform: translate(0px, -15px);
+		
+	}
+
+	.imgOne {
+		background-image: url("../img/FixedBadges/5.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -100px);
+	}
+
+	.imgTwo {
+		background-image: url("../img/FixedBadges/6.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -200px);
+	}
+
+	/* -----------------  slide Two  -------------------- */
+
+	.paragraphsTwo {
+		text-align: left;
+	}
+
+	.imgThree {
+		background-image: url("../img/FixedBadges/1.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+	}
+
+
+	/* -----------------  slide Three  -------------------- */
+
+	.paragraphsThree {
+		text-align: right;
+	}
+
+	.imgFour {
+		background-image: url("../img/FixedBadges/2.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+	}
+
+
+	/* -----------------  slide Four  -------------------- */
+
+	.paragraphsFour {
+		text-align: left
+	}
+
+	.imgFive {
+		background-image: url("../img/FixedBadges/4.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -100px);
+	}
+
+	.imgSix {
+		background-image: url("../img/FixedBadges/3.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -150px);
+	}
+} 
+
+@media all and (max-width: 768px) {
+	/*
+	*/
+	
+	.textOne {
+		/*
+		background-color: yellow;
+		*/
+		width: 80%;
+		margin-top: 0px;
+		font-size: 25px;
+	}
+	
+	.elonImg img {
+		width: 80%;
+		height: auto;
+	}	
+	
+	/* -----------------  grids and achievments  -------------------- */
+	/* -----------------  slide One  -------------------- */
+	
+	.dates {
+		transform: translate(0px, 35px);
+		
+	}
+	
+	.paragraphsOne {
+		transform: translate(0px, 80px);
+		font-size: 30px;
+	}
+
+	.imgOne {
+		background-image: url("../img/FixedBadges/5.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -100px);
+	}
+
+	.imgTwo {
+		background-image: url("../img/FixedBadges/6.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -50px);
+	}
+
+	/* -----------------  slide Two  -------------------- */
+
+	.paragraphsTwo {
+		text-align: left;
+		transform: translate(0px, 80px);
+		font-size: 30px;
+	}
+
+	.imgThree {
+		background-image: url("../img/FixedBadges/1.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, 100px);
+	}
+
+
+	/* -----------------  slide Three  -------------------- */
+
+	.paragraphsThree {
+		text-align: right;
+		transform: translate(0px, 80px);
+		font-size: 30px;
+	}
+
+	.imgFour {
+		background-image: url("../img/FixedBadges/2.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, 100px);
+	}
+
+
+	/* -----------------  slide Four  -------------------- */
+
+	.paragraphsFour {
+		text-align: left;
+		transform: translate(0px, 80px);
+		font-size: 30px;
+	}
+
+	.imgFive {
+		background-image: url("../img/FixedBadges/4.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, 0px);
+	}
+
+	.imgSix {
+		background-image: url("../img/FixedBadges/3.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, 0px);
+	}
+} 
+
+@media all and (max-width: 575px) {
+	/*
+	*/
+	
+	.textOne {
+		/*
+		background-color: green;
+		*/
+		width: 80%;
+		margin-top: 0px;
+		font-size: 13px;
+	}
+	
+	.elonImg img {
+		width: 60%;
+		height: auto;
+	}
+
+	/* -----------------  grids and achievments  -------------------- */
+	/* -----------------  slide One  -------------------- */
+	
+	.dates {
+		transform: translate(0px, -15px);
+	}
+	
+	.dates h1 {
+		margin: 0px;
+		padding: 0px;
+		font-size: 30px;
+	}
+
+	.dates h2 {
+		margin: 0px;
+		padding: 0px;
+		font-size: 20px;
+	}
+	
+	.paragraphsOne {
+		font-size: 12px;
+		transform: translate(0px, 0px);
+	}
+
+	.imgOne {
+		background-image: url("../img/FixedBadges/5.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -100px);
+	}
+
+	.imgTwo {
+		background-image: url("../img/FixedBadges/6.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -200px);
+	}
+
+	/* -----------------  slide Two  -------------------- */
+
+	.paragraphsTwo {
+		text-align: left;
+		font-size: 12px;
+		transform: translate(0px, 0px);
+	}
+
+	.imgThree {
+		background-image: url("../img/FixedBadges/1.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, 0px);
+	}
+
+
+	/* -----------------  slide Three  -------------------- */
+
+	.paragraphsThree {
+		text-align: right;
+		font-size: 12px;
+		transform: translate(0px, 0px);
+	}
+
+	.imgFour {
+		background-image: url("../img/FixedBadges/2.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(5px, 0px);
+	}
+
+
+	/* -----------------  slide Four  -------------------- */
+
+	.paragraphsFour {
+		text-align: left;
+		font-size: 12px;
+		transform: translate(0px, 0px);
+	}
+
+	.imgFive {
+		background-image: url("../img/FixedBadges/4.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -50px);
+	}
+
+	.imgSix {
+		background-image: url("../img/FixedBadges/3.png");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		transform: translate(0px, -200px);
+	}
+
+	.sOmEImg img {
+		width: 20px;
+		height: auto;
+		margin: 20px;
+	}
+	
+	.footer h4 {
+		font-size: 10px;
+	}
+	
+	.imgOne.fade-in {
+		opacity: 1;
+		transform: translateY(-150px);
+	}
+	.imgTwo.fade-in {
+		opacity: 1;
+		transform: translateY(-300px);
+	}
+	.imgThree.fade-in {
+		opacity: 1;
+		transform: translateY(-20px);
+	}
+	.imgFour.fade-in {
+		opacity: 1;
+		transform: translateY(-50px);
+	}
+	.imgFive.fade-in {
+		opacity: 1;
+		transform: translateY(-100px);
+	}
+	.imgSix.fade-in {
+		opacity: 1;
+		transform: translateY(-250px);
+	}
+
+}
+

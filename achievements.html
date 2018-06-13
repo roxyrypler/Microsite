@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="keywords" content="ScrollMagic, example, scrolling, attaching, scrollbar, anchor, link, in-page, navigation, hash" />
+	<meta name="author"	content="Patrick Lie" />
+	<link alt="SpaceX Logo" rel="icon" href="./img/SpaceX-Logo-Tab.svg">
+	<title>SpaceX - Achievements</title>
+<!-- ScrollMagic -->
+	<script type="text/javascript" src="libs/scrollmagic/jquery.min.js"></script>
+	<script type="text/javascript" src="libs/scrollmagic/ScrollMagic.js"></script>
+    <script type="text/javascript" src="libs/scrollmagic/plugins/ScrollToPlugin.min.js"></script>
+	<script type="text/javascript" src="libs/scrollmagic/plugins/debug.addIndicators.js"></script>
+<!-- Bootstrap -->   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<!-- stylesheet -->      
+    <link rel="stylesheet" href="css/achievements.css">
+<!-- javascript -->    
+    <script src="js/achievements.js" ></script>				
+</head>
+<body onresize="rotateBack()">
+	<div id="overlay"></div>
+    <section class="demo" id="section-wipes" align="center" >
+        <section class="panel sectionOne" id="sectionOnes" align="center" >
+            <div class="headermenu" id="navMenuHeader" >
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                  <a href="index.html"><img alt="SpaceX Logo" src="img/SpaceX-Logo.svg.png" align="center" class="navLogo" ></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="marsVR.html">Experience Mars</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="achievements.html">SpaceX achievements</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li> 
+						<li class="nav-item">
+                        <a class="nav-link" href="learnmore.html">Launches</a>
+                      </li> 
+						<li class="nav-item">
+                        <a class="nav-link" href="Trackiss.html">ISS Tracker</a>
+                      </li> 
+						<li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                    </ul>
+                  </div> 
+                </nav>
+            </div>
+            <div class="textOne" align="center">
+                <h2>Cheaper trips 
+                    to space</h2>
+            </div>
+            <div class="elonImg" align="center">
+                <img alt="SpaceX Elon Musk" src="img/SpaceEx.jpg" >
+            </div>
+                <div class="textOne" align="center">
+                    <p>Space Exploration Technologies Corp., doing 
+                        business as SpaceX, is a private American 
+                        aerospace manufacturer and space transportation 
+                        services company headquartered in Hawthorne, 
+                        California. It was founded in 2002 by entrepreneur 
+                        Elon Musk with the goal of reducing space 
+                        transportation costs and enabling the colonization 
+                        of Mars. SpaceX has since developed the 
+                        Falcon launch vehicle family and the Dragon 
+                        spacecraft family, which both currently deliver 
+                        payloads into Earth orbit.</p>
+                </div>
+        </section>
+        <section class="panel" id="sectionTwos" >
+            <div class="sectionTwo" id="sectionTwo" align="center">
+                <div class="row mainGrid" align="center">
+                    <div class="col dates" align="center">
+                        <h1>9th December </h1>
+                        <h2>2010</h2>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col paragraphsOne">
+						<p></p>
+						<p></p>
+                        <p><br>The first privately funded 
+                        company to successfully 
+                        launch (by Falcon 9), 
+                        orbit and recover 
+                        a spacecraft 
+                        (Dragon)</p>
+                    </div>
+                    <div class="col"></div>
+                    <div class="w-100"></div>
+                    <div class="col invisable"></div>
+                    <div class="col imgOne" id="imgOne">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col imgTwo" id="imgTwo">  
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </section>
+        <section class="panel" id="sectionThree" >
+            <div class="sectionThree" id="sectionThrees" align="center">
+                <div class="row mainGrid" align="center">
+                    <div class="col dates" align="center">
+                        <h1>25th May</h1>
+                        <h2>2012</h2>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col paragraphs">
+                    </div>
+                    <div class="col paragraphsTwo">
+						<p></p>
+						<p></p>
+                        <p><br>The first private company 
+                            to send a spacecraft 
+                            (Dragon) to the 
+                            International 
+                            Space Station</p>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col imgThree" id="imgThree"></div>
+                    <div class="col">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col">   
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </section>
+        <section class="panel" id="sectionFour" >
+            <div class="sectionFour" id="sectionFours" align="center">
+                <div class="row mainGrid" align="center">
+                    <div class="col dates" align="center">
+                        <h1>3th December </h1>
+                        <h2>2013</h2>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col paragraphsThree">
+						<p></p>
+						<p></p>
+                        <p><br>The first private 
+                            company to send a 
+                            satellite into 
+                            geosynchronous orbit 
+                            (SES-8)</p>
+                    </div>
+                    <div class="col"></div>
+                    <div class="w-100"></div>
+                    <div class="col"></div>
+                    <div class="col">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col">  
+                    </div>
+                    <div class="col imgFour" id="imgFour"></div>
+                </div>
+            </div>
+        </section>
+        <section class="panel" id="sectionFive" >
+            <div class="sectionFive" id="sectionFives" align="center">
+                <div class="row mainGrid" align="center">
+                    <div class="col dates" align="center">
+                        <h1>22th December </h1>
+                        <h2>2015</h2>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col paragraphs">
+                    </div>
+                    <div class="col paragraphsFour">
+						<p></p>
+						<p></p>
+                        <p><br>The first landing 
+                            of a first stage 
+                            orbital capable rocket 
+                            (Falcon 9, Flight 20)</p>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col imgFive" id="imgFive"></div>
+                    <div class="col">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col"> 
+                    </div>
+                    <div class="col imgSix" id="imgSix"></div>
+                </div>
+            </div>
+        </section>
+        <section class="panel sectionSix" id="sectionSix" align="center" >
+			<div class="lastSlideContainer" align="center" >
+				<div class="references" align="center" >
+					<div class="row refferances" align="center">
+						<div class="col box headerTextONe"><h1>Thank You</h1></div>
+						<div class="w-100"></div>
+						<div class="col box"><h2>References:</h2></div>
+						<div class="w-100"></div>
+						<div class="col box"><a href="https://www.wikipedia.org/" >wikipedia.com</a></div>
+						<div class="col box"><a href="https://getbootstrap.com/" >Bootstrap</a></div>
+						<div class="w-100"></div>
+						<div class="col box"><a href="http://www.spacex.com/" >spacex.com</a></div>
+						<div class="col box"><a href="http://scrollmagic.io/" >Scrollmagic js</a></div>
+						<div class="w-100"></div>
+						<div class="col box"><a href="https://cloud.google.com/maps-platform/" >Google maps api</a></div>
+						<div class="col box"><a href="https://github.com/r-spacex/SpaceX-API" >SpaceX-API</a></div>
+						<div class="col box"><a href="http://open-notify.org/" >Open Notify API</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="footer" id="sectionSixs" align="center">
+				<a href="index.html" ><img alt="SpaceX Logo" src="img/SpaceX-Logo.svg.png" class="sLogo" ></a>
+					<a href="index.html" ><h4>Home</h4></a>
+					<a href="contact.html" ><h4>Contact</h4></a>
+				<div class="sOmEImg" >
+					<div class="faceLogo" >
+						<a href="#" ><img alt="Facebook Logo" src="img/FB-f-Logo__blue_50.png"></a>
+					</div>
+					<div class="instaLogo" >
+						<a href="#" ><img alt="Instagram Logo" src="img/glyph-logo_May2016.png"></a>
+					</div>
+					<div class="twitterLogo" >
+						<a href="#" ><img alt="Twitter Logo" src="img/Twitter_Logo_Blue.png"></a>
+					</div>
+				</div>
+				<h4>SpaceX - Hawthorne, California, USA, Site By http://spacex.dragonstick.net/
+				</h4>
+			</div>
+        </section>		
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
+

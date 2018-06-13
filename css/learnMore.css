@@ -1,0 +1,304 @@
+html body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    height: 100%;
+    margin: 0;
+    background-color: #DCDDE1;
+    overflow-x: hidden;
+}
+
+p {
+	font-family: "Arial";
+}
+
+h1 h2 h3 h4 {
+	font-family: "Franklin Gothic";
+}
+
+.headermenu {
+    width: 100%;
+    
+    background-color: #ECF0F1;
+}
+
+.navbar {
+    background-color: #ECF0F1 !important;
+    width: 100%;
+}
+
+.navbar a {
+    color: black !important;
+}
+
+.navbar-toggler {
+    background-color: #005288;
+}
+
+.headermenu img {
+    width: 200px;
+    height: auto;
+}
+
+.wrapper {
+	background-image: url(../img/learnmoreBG.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#headlineOne {
+	color: aliceblue;
+	margin-top: 0px;
+}
+
+#currentMissionName {
+	color: aliceblue;
+}
+
+.mainGrid {
+	width: 50%;
+	margin-bottom: 100px;
+}
+
+.row {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.row p {
+	color: aliceblue;
+	text-align: left;
+}
+
+.gridss {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 4px;
+	height: 50px;
+	
+}
+
+.previousMissionsContainer {
+	width: 100%;
+	height: 300px;
+	
+}
+
+.missionHolder {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 80%;
+	height: 300px;
+	overflow-x: scroll;
+  	overflow-y: hidden;
+  	white-space: nowrap;
+	
+}
+
+.missionCard {
+	background-color: rgba(255,118,117, 0.6);
+	width: 200px;
+	height: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+/* -------------- inside card ------------------- */
+
+
+
+#theYear{
+	font-size: 25px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#tripNr{
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#missionName{
+	font-size: 13px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+#rocketType{
+	font-size: 13px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+#launchDate{
+	font-size: 13px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+#launchSite{
+	font-size: 13px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+#missinBadge{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 90px;
+	height: 90px;
+}
+
+#wikiLink{
+	font-size: 15px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#videoLink{
+	font-size: 15px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+
+/* Footer -------------------------------------- */
+
+.footer {
+    background-color: #ECF0F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img {
+    width: 200px;
+    height: auto;
+}
+
+.footer h4 {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.sLogo {
+    padding-top: 10px;
+    transform: translate(15px, 0px);
+}
+
+.sOmEImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sOmEImg img {
+    width: 40px;
+    height: auto;
+    margin: 20px;
+}
+
+
+/* ------------- break points -------------- */
+
+@media all and (max-width: 1199px) {
+	.row {
+		/*
+		background-color: aqua;
+		*/
+	}
+	
+	.missionHolder {
+		width: 100%;
+	}
+	
+} 
+
+@media all and (max-width: 991px) {
+	.row {
+		/*
+		background-color: blue;
+		*/
+	}
+	
+		.mainGrid {
+		width: 90%;
+		margin-bottom: 100px;
+	}
+	
+	.missionHolder {
+		width: 100%;
+	}
+} 
+
+@media all and (max-width: 768px) {
+	.row {
+		/*
+		background-color: yellow;
+		*/
+	}
+	
+		.mainGrid {
+		width: 90%;
+		margin-bottom: 100px;
+	}
+	
+	.missionHolder {
+		width: 100%;
+	}
+} 
+
+@media all and (max-width: 575px) {
+	.row {
+		/*
+		background-color: green;
+		*/
+	}
+	
+	.mainGrid {
+		width: 90%;
+		margin-bottom: 100px;
+	}
+	
+	.row {
+		background-color: rgba(0, 0, 0, 0.5);
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		margin-top: 20px;
+	}
+	
+	.row p {
+		color: aliceblue;
+		text-align: left;
+		font-size: 12px;
+	}
+	
+	.missionHolder {
+		width: 100%;
+	}
+	
+}
+
